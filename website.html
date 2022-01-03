@@ -7,9 +7,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     </head>
 <body>
-   <div class="container">
+   <div class="container pt-lg-3">
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light ">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
                 <div class="container-fluid">
                     
                   <a class="navbar-brand" href="#"> <img src="https://sandbox.elemisthemes.com/assets/img/logo-dark.png" alt="" width="100" height="24"></a>
@@ -213,6 +213,8 @@
          </div>
    </section>
    
+
+   <div class="container">
    <section class="container py-3" >
     <div class="card mb-3 py-5" style="max-width: 100%; align-items: center; border: none;">
        <div class="row g-0">
@@ -221,41 +223,137 @@
           </div>
         
          <div class="col-md-8">
-           <div class="card-body" style="text-align: center;">
-             <h5 class="card-title" style="font-size: 80px; font-weight: 400; ">A digital agency <br>specializing on  <br> <span style="color: cornflowerblue;"> 3D animation </span> </h5>
-             <p class="card-text">We are an award winning design agency <br>that strongly believes in the power of creative ideas. </p>
-                 <span><a class="btn btn-lg btn-primary rounded-pill me-2">Get Started</a></span>
-
+           <div class="card-body" style="text-align: left; padding-left: 200px;">
+             <h5 class="card-title" style="font-size: 60px; font-weight: 400; ">specializing on  <br> <span style="color: cornflowerblue;"> 3D animation </span> </h5>
+             <p>
+                <a class="btn" style="color: rgb(35, 148, 223) ;" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Link with href
+                </a>
+            </p>
+            <p>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                          Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                        </div>
+                      </div>
+            </p>
+            <p>
+                <button class="btn "  style="color: rgb(35, 148, 223);"type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                  Button with data-bs-target
+                </button>
+              </p>
+              <p>
+                <div class="collapse" id="collapseExample1">
+                    <div class="card card-body">
+                      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    </div>
+                  </div>
+        </p>
+             
            </div>
          </div>
          
        </div>
      </div>
+    </div>
 </section>
 
-        
-<p>
-    <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
-    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
-    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
-  </p>
-  <div class="row">
-    <div class="col">
-      <div class="collapse multi-collapse" id="multiCollapseExample1">
-        <div class="card card-body">
-          Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
-        </div>
-      </div>
+<div class="container ">
+<div class="row gx-lg-8 gx-xl-12 gy-10 gy-lg-0 mb-11 py-lg-5">
+    <div class="col-lg-4 text-center text-lg-start">
+      <h2 class="fs-16 text-uppercase text-primary mb-3">Company Facts</h2>
+      <h3 class="display-6 mb-4 pe-xxl-5">We are proud of our design team</h3>
+      <p class="mb-0 pe-xxl-11">Just sit back and relax while we take care of your business needs for you.</p>
     </div>
-    <div class="col">
-      <div class="collapse multi-collapse" id="multiCollapseExample2">
-        <div class="card card-body">
-          Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+    <!-- /column -->
+    <div class="col-lg-8 mt-lg-2">
+      <div class="row align-items-center counter-wrapper gy-6 text-center">
+        <div class="col-md-4">
+          <div> <img class="pb-3" src="https://nanophorm.com/wp-content/uploads/2018/04/google-logo-icon-PNG-Transparent-Background.png" style="width: 40px;" alt=""></div>
+          <h3 class="counter" style="visibility: visible;">1000+</h3>
+          <p>Completed Projects</p>
         </div>
+        <!--/column -->
+        <div class="col-md-4">
+            <div > <img class="pb-3" src="https://www.clipartmax.com/png/middle/185-1854464_facebook-logo-png-transparent-background.png" style="width: 50px;" alt=""></div>
+         
+          <h3 class="counter" style="visibility: visible;">50K+</h3>
+          <p>Happy Customers</p>
+        </div>
+        <!--/column -->
+        <div class="col-md-4">
+            <div> <img class="pb-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAX4g8sDbVGF0NVypbTURoNbaeIjXe-oLE1Q&usqp=CAU" style="width: 50px;" alt=""></div>
+         
+            <h3 class="counter" style="visibility: visible;">20+</h3>
+          <p>Awards Won</p>
+        </div>
+        <!--/column -->
       </div>
+      <!--/.row -->
     </div>
+    <!-- /column -->
   </div>
+</div>
 
+
+<section>
+    <div class="py-5" style="align-items: center; ">
+      <div class="container " style="text-align: center;">
+          <div class="row py-5 col-s" style="text-align: left; ">
+              <div class="  col-md-6 col-lg-3">
+                  <div class="card " style="width: 18rem; box-shadow: 5px 5px 10px; ">
+                      <img class="card-img-top rounded-circle w-50 p-4" src="https://static.vecteezy.com/system/resources/thumbnails/000/634/347/small/L-Poly-Squre_vw_G-08957.jpg" >
+                      <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class=" col-md-6 col-lg-3">
+                  <div class="card " style="width: 18rem; box-shadow: 5px 5px 10px; "> 
+                      <img class="card-img-top rounded-circle w-50 p-4" src="https://static.vecteezy.com/system/resources/thumbnails/000/634/347/small/L-Poly-Squre_vw_G-08957.jpg" alt="Card image cap">
+                      
+                      <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class=" col-md-6 col-lg-3">
+                <div class="card " style="width: 18rem;box-shadow: 5px 5px 10px; ">
+                    <img class="card-img-top rounded-circle w-50 p-4" src="https://static.vecteezy.com/system/resources/thumbnails/000/634/347/small/L-Poly-Squre_vw_G-08957.jpg" alt="Card image cap">
+                    
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+
+              <div class=" col-md-6 col-lg-3">
+                  <div class="card " style="width: 18rem; box-shadow: 5px 5px 10px;  ">
+                      <img class="card-img-top rounded-circle w-50 p-4" src="https://static.vecteezy.com/system/resources/thumbnails/000/634/347/small/L-Poly-Squre_vw_G-08957.jpg" alt="Card image cap">
+                      
+                      <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+       </div>
+      </div>
+  </section>
+
+
+
+  <div>
+        
+
+
+  </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
