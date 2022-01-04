@@ -3,6 +3,23 @@
     
 }
 
+.change1:hover{
+    color: white
+    
+}
+
+.profiles .card {
+
+    margin: 25px;
+
+  }
+
+  .profiles .card-body {
+    text-align: left;
+  }
+.container .card{
+    margin: 25px;
+}
 .up{
     width: 70px;
     position: fixed;
