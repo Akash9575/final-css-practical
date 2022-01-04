@@ -2,3 +2,17 @@
     color: rgb(70, 116, 241);
     
 }
+
+.up{
+    width: 70px;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+}
+
+@media screen  and (prefers-reduced-motion:no-preference){
+    html{
+        scroll-behavior: smooth;
+
+    }
+}
